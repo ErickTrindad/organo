@@ -59,6 +59,7 @@ function App() {
         }
       />
 
+      <h2>Times</h2>
       {times.map((time) => (
         <Time
           key={time.nome}
